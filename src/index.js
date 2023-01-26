@@ -4,11 +4,10 @@ import "./styles/header.css";
 import "./styles/sidebar.css";
 import "./styles/mainContent.css";
 import "./styles/footer.css";
+import { arr } from "./modules/images";
 import {
   menuIcon, mainContent, sideBar, list,
 } from "./modules/domCollection";
-
-
 
 // ------------------------------toggle menu animation----------------------------------------------------
 
