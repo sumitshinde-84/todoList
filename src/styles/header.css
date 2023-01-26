@@ -1,0 +1,76 @@
+.header{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-color: var(--header);
+    border-bottom: 2px var(--accentDark) solid;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.header > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+    
+    
+    
+}
+
+.what{
+    color: var(--textColor);
+}
+
+h1{
+    font-family: 'Alata', sans-serif;
+    font-size: 36px;
+    color: var(--accentDark);
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+
+#menuIcon img{
+
+width: 30px;
+height: 30px;
+
+}
+
+#menuIcon{
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+    
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    
+}
+
+
+
+#menuIcon:hover{
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+    background-color:  rgba(128, 128, 128, 0.267);;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    border-radius: 2px;
+    
+}
