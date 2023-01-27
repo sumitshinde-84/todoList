@@ -35,17 +35,17 @@ img{
 
 #menuIcon img{
 
-width: 30px;
-height: 30px;
+width: 20px;
+height: 20px;
 
 }
 
 #menuIcon{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     padding: 0px;
     margin: 0px;
-    
+    background-image: url('../images/menu.png');
     position: absolute;
     display: flex;
     justify-content: center;
@@ -59,8 +59,8 @@ height: 30px;
 
 
 #menuIcon:hover{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     padding: 0px;
     margin: 0px;
     background-color:  rgba(128, 128, 128, 0.267);;

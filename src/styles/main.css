@@ -13,8 +13,8 @@ body{
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns:280px 1400px;
-    grid-template-rows: 80px 100% 50px;
+    grid-template-columns:280px 1200px;
+    grid-template-rows: 60px 100% 50px;
     overflow-x: hidden;
     font-family: 'Alata', sans-serif;
 }
