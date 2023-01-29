@@ -50,3 +50,45 @@ ul li:hover{
     background-color: var(--mainContent);
     
 }
+
+
+.Project-list{
+    border-bottom: 2px var(--textColor) solid;
+    width: 230px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.Project-list h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: var(--textColor);
+}
+
+
+.plus{
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--textColor);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    position: relative;
+    top:3px;
+    right: 14px;
+    padding: 1px;
+}
+
+.plus p{
+  position: relative;  
+  top: -0.08em;
+  right: 0.03;;
+}
+
+.Project-list-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

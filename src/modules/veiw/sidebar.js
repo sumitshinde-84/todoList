@@ -2,9 +2,12 @@ import {
   menuIcon, mainContent, sideBar, list, check,
 } from "../domCollection";
 
-// ------------------------------list click Animation----------------------------------------------------
+
 
 export function sidebar() {
+
+    // ------------------------------list click Animation----------------------------------------------------
+
   for (let i = 0; i < list.length; i++) {
     list[i].addEventListener("click", () => {
       for (let j = 0; j < list.length; j++) {
@@ -18,4 +21,7 @@ export function sidebar() {
       console.log(listitem1);
     });
   }
+
+  
+
 }
