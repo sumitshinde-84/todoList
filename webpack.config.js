@@ -6,6 +6,7 @@ module.exports = {
   output: {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
+    clean: true,
   },
   devtool: "inline-source-map",
   module: {
@@ -17,9 +18,7 @@ module.exports = {
       {
         test: /\.(png|jpe?g|gif)$/i,
         loader: "file-loader",
-        options: {
-          outputPath: "images", // Chage this like 'public/images' or any other relative path to the root
-        },
+
       },
     ],
   },
