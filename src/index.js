@@ -4,11 +4,11 @@ import "./styles/header.css";
 import "./styles/sidebar.css";
 import "./styles/mainContent.css";
 import "./styles/footer.css";
-import { arr } from "./modules/images";
+
 import {
   menuIcon, mainContent, sideBar, list,
 } from "./modules/domCollection";
-
+import { arr } from "./modules/images";
 // ------------------------------toggle menu animation----------------------------------------------------
 
 (function () {
@@ -44,3 +44,9 @@ import {
     });
   }
 }());
+
+
+const mainIcon = document.querySelector('#menuIcon')
+const img = document.createElement('img')
+img.src=arr[0]
+mainIcon.appendChild(img)
