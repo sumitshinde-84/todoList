@@ -47,6 +47,7 @@ import { arr } from "./modules/images";
 
 
 const mainIcon = document.querySelector('#menuIcon')
-const img = document.createElement('img')
-img.src=arr[0]
-mainIcon.appendChild(img)
+console.log(mainIcon)
+const img1 = document.createElement('img')
+img1.src=arr[0]
+mainIcon.appendChild(img1)
