@@ -1,5 +1,5 @@
-import img1 from "../images/menu.png";
-import img2 from "../images/check.png";
+// import img1 from "../images/menu.png";
+// import img2 from "../images/check.png";
 
 
-export const arr = [img1, img2];
+// export const arr = [img1, img2];
