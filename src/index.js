@@ -6,31 +6,29 @@ import "./styles/mainContent.css";
 import "./styles/footer.css";
 
 import {
-  menuIcon, mainContent, sideBar, list,
+  menuIcon, mainContent, sideBar, list, check,
 } from "./modules/domCollection";
 import { arr } from "./modules/images";
 // ------------------------------toggle menu animation----------------------------------------------------
 
-(function () {
-  let iconClick = "false";
-  menuIcon.addEventListener("click", () => {
-    if (iconClick === "false") {
-      mainContent.style.gridColumn = "1/3";
-      sideBar.style.gridColumn = "";
-      sideBar.style.transform = "translate(-110%,0%)";
-      iconClick = "true";
-    } else if (iconClick === "true") {
-      mainContent.style.gridColumn = "2/3";
-      sideBar.style.gridColumn = "1/2";
-      sideBar.style.transform = "translate(0%,0%)";
-      iconClick = "false";
-    }
-  });
-}());
+let iconClick = "false";
+menuIcon.addEventListener("click", () => {
+  if (iconClick === "false") {
+    mainContent.style.gridColumn = "1/3";
+    sideBar.style.gridColumn = "";
+    sideBar.style.transform = "translate(-110%,0%)";
+    iconClick = "true";
+  } else if (iconClick === "true") {
+    mainContent.style.gridColumn = "2/3";
+    sideBar.style.gridColumn = "1/2";
+    sideBar.style.transform = "translate(0%,0%)";
+    iconClick = "false";
+  }
+});
 
 // ------------------------------list click Animation----------------------------------------------------
 
-(function () {
+
   for (let i = 0; i < list.length; i++) {
     list[i].addEventListener("click", () => {
       for (let j = 0; j < list.length; j++) {
@@ -43,11 +41,7 @@ import { arr } from "./modules/images";
       list[i].style.backgroundColor = "#2abd675f";
     });
   }
-}());
 
+menuIcon.src=arr[0]
+check.src=arr[1]
 
-const mainIcon = document.querySelector('#menuIcon')
-console.log(mainIcon)
-const img1 = document.createElement('img')
-img1.src=arr[0]
-mainIcon.appendChild(img1)
