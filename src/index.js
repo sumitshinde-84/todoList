@@ -28,20 +28,18 @@ menuIcon.addEventListener("click", () => {
 
 // ------------------------------list click Animation----------------------------------------------------
 
+for (let i = 0; i < list.length; i++) {
+  list[i].addEventListener("click", () => {
+    for (let j = 0; j < list.length; j++) {
+      list[j].style.borderLeft = "none";
+      list[j].style.borderRadius = "";
+      list[j].style.backgroundColor = "";
+    }
+    list[i].style.borderLeft = "2px var(--accentDark) solid";
+    list[i].style.borderRadius = "2px";
+    list[i].style.backgroundColor = "#2abd675f";
+  });
+}
 
-  for (let i = 0; i < list.length; i++) {
-    list[i].addEventListener("click", () => {
-      for (let j = 0; j < list.length; j++) {
-        list[j].style.borderLeft = "none";
-        list[j].style.borderRadius = "";
-        list[j].style.backgroundColor = "";
-      }
-      list[i].style.borderLeft = "2px var(--accentDark) solid";
-      list[i].style.borderRadius = "2px";
-      list[i].style.backgroundColor = "#2abd675f";
-    });
-  }
-
-menuIcon.src=arr[0]
-check.src=arr[1]
-
+menuIcon.src = arr[0];
+check.src = arr[1];
