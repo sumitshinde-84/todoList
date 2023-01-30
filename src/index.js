@@ -4,10 +4,12 @@ import "./styles/header.css";
 import "./styles/sidebar.css";
 import "./styles/mainContent.css";
 import "./styles/footer.css";
-
+import {
+    menuIcon, mainContent, sideBar, list, check, projectList,plus,projectListAll2,projectList2
+  } from "./modules/domCollection";
 import { toggle } from "./modules/veiw/header";
 import { MenuClickanimation, addProject } from "./modules/veiw/sidebar";
 
 toggle();
-MenuClickanimation();
+MenuClickanimation(list,projectListAll2);
 addProject();

@@ -4,4 +4,6 @@ export const mainContent = document.querySelector(".mainContent");
 export const list = document.querySelectorAll("#main-list li");
 export const check = document.querySelector(".checkImg");
 export const projectList = document.querySelector(".project-ul");
-
+export const plus = document.querySelector('.plus')
+export const projectList2 = document.querySelector(".project-ul")
+export const projectListAll2 = document.querySelectorAll(".project-ul li")
