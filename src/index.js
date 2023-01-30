@@ -6,7 +6,8 @@ import "./styles/mainContent.css";
 import "./styles/footer.css";
 
 import { toggle } from "./modules/veiw/header";
-import { sidebar } from "./modules/veiw/sidebar";
+import { MenuClickanimation, addProject } from "./modules/veiw/sidebar";
 
 toggle();
-sidebar();
+MenuClickanimation();
+addProject();

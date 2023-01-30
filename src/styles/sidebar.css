@@ -87,8 +87,49 @@ ul li:hover{
   right: 0.03;;
 }
 
-.Project-list-add{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.activated-list{
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:30px 20px;
+    font-family: 'Alata', sans-serif;
+    
+
+
+}
+
+.activated-list button:nth-child(2){
+    padding: 3px 6px;
+    width: 70px;
+    color: white;
+    background-color: var(--accentDark);
+    border-radius: 3px;
+    border: none;
+    margin-right: auto;
+
+
+}
+
+.activated-list button:nth-child(3){
+    padding: 3px 6px;
+    width: 70px;
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+    margin-left: auto;
+
+}
+
+
+.project-ul li input {
+    font-family: 'Alata', sans-serif;
+   height: 27px;
+   width: 100%;
+   border-color: var(--textColor);
+   border-radius: 3px;
+   padding-left: 2px;
+   grid-column: 1/3;
+
+    
 }
