@@ -7,8 +7,8 @@ import "./styles/footer.css";
 import {
     menuIcon, mainContent, sideBar, list, check, projectList,plus,projectListAll2,projectList2
   } from "./modules/domCollection";
-import { toggle } from "./modules/veiw/header";
-import { MenuClickanimation, addProject } from "./modules/veiw/sidebar";
+import { toggle } from "./modules/domManupulation/header";
+import { MenuClickanimation, addProject } from "./modules/domManupulation/sidebar";
 
 toggle();
 MenuClickanimation(list,projectListAll2);
