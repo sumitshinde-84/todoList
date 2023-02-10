@@ -1,7 +1,10 @@
+
+
 import {
   menuIcon, mainContent, sideBar, list, check, projectList, plus, projectListAll2, projectList2,projectTitlePara
 } from "../domCollection";
 import  { Project } from "../project.js";
+
 export const projects = [];
 // -----------------------Menu Click animation -------------------------------
 
@@ -64,7 +67,7 @@ export function makeItInput() {
 function addProjectBtn(lastChild, input) {
   removeAllChildNodes(lastChild);
   lastChild.textContent = input.value;
-  const projectTemp = Project(input.value,[]);
+  const projectTemp = 
   console.log(projectTemp.name)
   lastChild.removeAttribute("class");
   const projectListAll = document.querySelectorAll(".project-ul li");
