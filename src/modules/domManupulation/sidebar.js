@@ -1,5 +1,3 @@
-
-
 import {
   menuIcon, mainContent, sideBar, list, check, projectList, plus, projectListAll2, projectList2,projectTitlePara
 } from "../domCollection";
@@ -67,7 +65,7 @@ export function makeItInput() {
 function addProjectBtn(lastChild, input) {
   removeAllChildNodes(lastChild);
   lastChild.textContent = input.value;
-  const projectTemp = 
+  const projectTemp = Project(input.value,[]);
   console.log(projectTemp.name)
   lastChild.removeAttribute("class");
   const projectListAll = document.querySelectorAll(".project-ul li");
